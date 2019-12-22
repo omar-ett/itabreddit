@@ -12,6 +12,12 @@ public class DateApp {
         //date1.plusDays(2);
         LocalDateTime date2 = date1.plusDays(2);
         System.out.printf(String.valueOf(date2));
+   	public void msg(){
+		
+		System.out.printf("bonjour");	
+			}
+
+
     }
 
 
