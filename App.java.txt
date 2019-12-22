@@ -1,0 +1,18 @@
+package rest;
+
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
+
+import static java.time.LocalDate.of;
+
+public class DateApp {
+    public static void main(String[] args) {
+        LocalDateTime date1 = LocalDateTime.now();
+        //date1.plusDays(2);
+        LocalDateTime date2 = date1.plusDays(2);
+        System.out.printf(String.valueOf(date2));
+    }
+
+
+}
